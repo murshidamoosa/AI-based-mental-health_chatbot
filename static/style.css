@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Landing Page */
+#landing-page {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Chat Container (Hidden Initially) */
+.hidden {
+    display: none;
+}
+
+#chat-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fafafa;
+    margin-bottom: 10px;
+}
+
+#chat-form {
+    display: flex;
+}
+
+#user_input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
